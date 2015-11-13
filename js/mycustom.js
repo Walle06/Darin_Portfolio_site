@@ -2,9 +2,8 @@ $( document ).ready( function(){
 	// alert( "HELLO!" )
 
 	 $('.pics').cycle({
-      fx: 'curtainX', 
-      sync: false, 
-      delay: -2000 
+      fx:    'shuffle', 
+      delay: -4000
 	  });
 
      $('#landingContent').fadeIn( 6000 );
