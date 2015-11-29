@@ -79,6 +79,9 @@ nav ul li:hover{
 	/*background: white;*/
 	cursor: pointer;
 }
+nav ul a{
+	color: white;
+}
 .pics {  
 	box-shadow: 10px 10px 10px white;
 	background: black;
@@ -118,7 +121,7 @@ nav ul li:hover{
 	width: 45%;
 	height:500px;
 	padding: 5px;
-	border:solid 1px white;
+	/*border:solid 1px white;*/
 	float: right;
 	font-family: neoteric;
 	font-weight: bolder;

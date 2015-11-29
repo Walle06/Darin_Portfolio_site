@@ -1,0 +1,145 @@
+body{
+	background: black;
+	margin: 0px;
+	padding: 0px;
+    width: 100%;
+    /*font-family: Arial;*/
+	font-size: 14px;
+	/*margin: 0 auto;*/
+	/*padding-top: 20px;*/
+}
+#wrap{
+	margin:0 auto;
+	width: 45%;
+	padding-top: 40px;
+
+}
+#after_submit, #email_validation, #name_validation {
+    display:none;
+}
+
+#after_submit{
+    background-color: #c0ffc0;
+    line-height: 31px;
+    margin-bottom: 10px;
+    padding-left: 20px;
+    -webkit-border-radius: 3px;
+	-moz-border-radius: 3px;
+	border-radius: 3px;
+}
+
+label, #after_submit{
+	color: #6c6c6c;
+}
+
+input{
+    line-height: 31px;
+}
+
+input, textarea{
+    width: 488px;
+	-webkit-border-radius: 3px;
+	-moz-border-radius: 3px;
+	border-radius: 3px;
+	background-color: rgba(255,255,255,.6);
+	border: solid 1px #b6c7cb;
+}
+
+#contact_form{
+	height: 317px;
+	background-color: #e1e9eb;
+	border: solid 1px #e5e5e5;
+    padding: 10px 20px 50px 20px;
+    -webkit-border-radius: 5px;
+	-moz-border-radius: 5px;
+	border-radius: 5px;
+	box-shadow: 10px 10px 10px grey;
+}
+
+#submit_button{
+    width: 109px;
+	height: 34px;
+	-webkit-border-radius: 3px;
+	-moz-border-radius: 3px;
+	border-radius: 3px;
+	background-color: #86c5fa;
+	-webkit-box-shadow: inset 0 2px rgba(255,255,255,.29);
+	-moz-box-shadow: inset 0 2px rgba(255,255,255,.29);
+	box-shadow: inset 0 2px rgba(255,255,255,.29);
+	border: solid 1px #77a4cb;
+	font-weight: bold;
+	color: #fff;
+    margin-left: 7px;
+}
+
+label.required:after {
+  content:'*';
+  color:red;
+}
+
+.error {
+  background-color:#FFDFDF;
+  color:red;
+}
+.error_message{
+  font-style: italic;
+  font-size: 10px;
+}
+.row {
+  margin:5px;
+}
+
+/*everything above is the contact form css and below is the bannner-navigation css*/
+#banner{
+	box-shadow: 10px 10px 10px grey;
+	width: 90%;
+	height:75px;
+	margin: 0 auto;
+	background: rgb(76,75,84);
+	color: white;
+	font-size: 30pt;
+	font-weight: bolder;
+	font-style: italic;
+	text-align: left;
+	padding: 10px;
+}
+#title{
+	color: white;
+	font-style: italic;
+	font-size: 15pt;
+	margin-left: 5px;
+}
+nav{
+	float: right;
+	/*border:solid 1px white;*/
+	width: 50%;
+	/*margin: 0 auto;*/
+	padding: 0px;
+
+}
+nav ul{
+	/*border:solid 1px white;*/
+	margin: 0px;
+	padding: 0px;
+	text-align: center;
+
+}
+nav ul li{
+	/*border: solid 1px white;*/
+	/*margin: 0 auto;*/
+	list-style: none;
+	display: inline-block;
+	color: (27,30,171,1);
+	font-size: 15pt;
+	margin: 5px;
+	text-align: center;
+
+}
+nav ul li:hover{
+	color:yellow;
+	/*background: white;*/
+	cursor: pointer;
+}
+nav ul a{
+	color: white;
+}
